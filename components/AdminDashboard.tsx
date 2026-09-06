@@ -1244,7 +1244,7 @@ const handleApproveRecon = (id: string, notes: string) => {
                 <strong className="text-white">{activeBookings.length}</strong>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-500 font-bold">Service Alerts:</span>
+                <span className="text-slate-500 font-bold">vehcile Alerts:</span>
                 <strong className="text-amber-400">{vehicles.filter(v => (v.next_service_km - v.current_mileage) <= 2000).length} vehicles</strong>
               </div>
             </div>
